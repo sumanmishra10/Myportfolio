@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Suman Mishra portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li>About</li>
+                <li>Blog</li>
+                <li><a href="/contact/">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="devloper-name">
+            <h1><strong>Full Stack Developer</strong></h1>
+        </section>
+        <section class="intro">
+            <div class="intro-content">
+                <img src="{% static 'portfolio/images/a.jpg' %}" alt="Suman Mishra" class="profile-image">
+                <div class="intro-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I am Suman Mishra, a dedicated Full Stack Developer with a passion for creating dynamic and responsive web applications. My technical skills span across various technologies, including Python, .NET, and Flutter, allowing me to build robust backend systems as well as intuitive front-end interfaces.
+                    Over the years, I have honed my skills through various projects, each challenging me to innovate and deliver solutions that meet user needs. My experience includes developing RESTful APIs, integrating third-party services, and implementing user authentication and authorization mechanisms.
+                    I am proficient in working with databases such as SQL Server and MySQL, ensuring data integrity and optimizing query performance. In addition, my knowledge of AWS allows me to deploy and manage applications in the cloud, providing scalable and reliable services.
+                    Beyond my technical abilities, I am committed to continuous learning and staying updated with the latest industry trends. 
+                    I am a strong advocate of best practices in software development, including code reviews, unit testing, and agile methodologies.
+                    When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and participating in tech communities. I am also an avid reader and love to travel, experiencing different cultures and gaining new perspectives.
+                    Feel free to explore my portfolio to see the projects I have worked on and get in touch if you have any questions or collaboration ideas. Thank you for visiting!</p>
+                </div>
+            </div>
+        </section>
+        <section class="experience">
+            <h2>My Experience</h2>
+            <!--<div class="experience-list">
+                <div class="experience-item">
+                    <h3>Software Developer at XYZ Company</h3>
+                    <p>Jan 2021 - Present</p>
+                    <p>At XYZ Company, I have been responsible for developing and maintaining web applications using the .NET framework. My role involves collaborating with cross-functional teams to deliver high-quality software solutions that meet client requirements. Key achievements include optimizing application performance and implementing new features that improved user experience.</p>
+                </div>--> 
+                <div class="experience-item">
+                    <h2> Medipro Computer Pvt. Ltd.</h2>
+                    <h3>Flutter Developer Intern </h3>
+                    <p>June 2023 - September 2023</p>
+                    <ul>
+                    <li>Involved in the development of mobile app projects using Flutter.</li>
+                    <li>Utilized Flutter's widget-based approach for building complex and custom UIs.</li>
+                    <li>with the team to enhance app functionalities and user experience.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h2>Defttree</h2>
+                    <h3>Digital Marketing Intern</h3>
+                    <p>March 2023 - June 2023</p>
+                    <ul>
+                    <li>Contributed to the overall digital marketing strategy.</li>
+                    <li> Boosted monthly output by 80% through creating daily articles, story ideas, and social media posts.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <h2>Relevant Skills</h2>
+            <div class="skills-list">
+                <p><strong>Programming Languages:</strong> Dart, C#, Python, HTML, CSS</p>
+                <p><strong>Frameworks and Tools:</strong> Flutter Framework, ASP.NET Framework</p>
+                <p><strong>Other Skills:</strong> API Integration, AWS Essentials, Digital Marketing</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <!-- Add your project details here -->
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Brief description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Brief description of Project 2.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Suman Mishra. All rights reserved.</p>
+    </footer>
+</body>
+</html>
